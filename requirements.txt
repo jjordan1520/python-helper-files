@@ -1,0 +1,5 @@
+hubspot==0.1.14dev
+hubspot_api_client==5.1.1
+numpy==1.23.4
+pandas==1.5.1
+simple_salesforce==1.11.6
