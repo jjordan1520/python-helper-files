@@ -5,7 +5,7 @@ import json
 def postgres_engine(
         username,
         password,
-        host='osso-postgres-db.cxi4au6ok50u.us-east-1.rds.amazonaws.com',
+        host,
         port='5432',
         database='postgres'
 ) -> sa.engine.base.Engine:
@@ -13,7 +13,7 @@ def postgres_engine(
     Create a SQLAlchemy engine object to be used in queries
     :param username:
     :param password:
-    :param host: Default 'osso-postgres-db.cxi4au6ok50u.us-east-1.rds.amazonaws.com'
+    :param host: 
     :param port: Default '5432'
     :param database: Default 'postgres'
     :return:
